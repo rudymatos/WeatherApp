@@ -4,6 +4,7 @@ var requestMaker =  require('request');
 
 var server = new hapiLib.Server();
 var applicationKEY = process.env.WEATHER_DEVELOPER_FORECAST_KEY;
+
 server.connection({ 
     port: process.env.PORT || 8000 ,
     routes : {cors : true}
