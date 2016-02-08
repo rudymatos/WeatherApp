@@ -29,7 +29,7 @@ function getRandomPhraseBasedOnResult(forecast){
 		console.log(possibleResults[i]);
 		var jsonPhrases = possibleResults[i];
 		if(jsonPhrases.name === forecast){
-			var index = Math.round(Math.random() * jsonPhrases.phrases.length);
+			var index = Math.round(Math.random() * jsonPhrases.phrases.length -1);
 			result = jsonPhrases.phrases[index];
 			break;
 		}
