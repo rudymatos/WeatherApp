@@ -1,0 +1,25 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App Node Module using Hapi and Making request to developer.forecast.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "weather",
+    "forecast",
+    "developer.forecast.io",
+    "node.js",
+    "request",
+    "heroku"
+  ],
+  "author": "rudymatos.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "hapi": "^13.0.0",
+    "request": "^2.69.0"
+  }
+}
