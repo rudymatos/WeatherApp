@@ -21,7 +21,7 @@ var possibleResults = [
 {"name":"fog", "phrases": ["Y eta' niebla?!?!", "Parece que paso un carro publico por aqui!", "No veo na con eta' niebla", "Y ete' humo de donde salio?"]},
 {"name":"cloudy", "phrases": ["Bueeeeeehhhh, el dia ta' como nubloso!" , "Hoy la parabola no sirve!", "El dia ta' trite' y gri!", "Ta' como pol llover compai!"]},
 {"name":"partly-cloudy-day", "phrases": ["Pila de nubes haciendo pila de coro", "Cancela el coro afuera que con toa' eta' nube...", "No hay parrillada hoy!", "Pa' mi que llueve hoy"]},
-{"name":"partly-cloudy-night", "phrases": ["Hoy se duelme' acurrucao'", "Ubicate la colcha que hoy de na' hace un friito jevi", ""]}];
+{"name":"partly-cloudy-night", "phrases": ["Hoy se duelme' acurrucao'", "Ubicate la colcha que hoy de na' hace un friito jevi", "Friiioooo Friiiioooo, como el agua del rio", "No hay que prender el aire hoy!!!"]}];
 
 function getRandomPhraseBasedOnResult(forecast){
 	var result = forecast;
