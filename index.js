@@ -3,8 +3,7 @@ var blipp  = require('blipp');
 var requestMaker =  require('request');
 
 var server = new hapiLib.Server();
-var applicationKEY = process.env.WEATHER_DEVELOPER_FORECAST_KEY;//35d8ab99976d657e30dd76c89510b23a
-
+var applicationKEY = process.env.WEATHER_DEVELOPER_FORECAST_KEY;
 server.connection({ 
     port: process.env.PORT || 8000 ,
     routes : {cors : true}
